@@ -110,7 +110,8 @@ EOS
 download_source_archive_for_ref() {
   local ref=$1
   local download_path=$2
-  local download_url="https://github.com/elixir-lang/elixir/archive/${ref}.tar.gz"
+  local download_url="https://github.com/pertsevds/elixir/archive/${ref}.tar.gz"
+
 
   # determine if the file exists
   echo "==> Checking whether specified Elixir reference exists..."
